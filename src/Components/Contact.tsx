@@ -8,7 +8,7 @@ function Contact() {
         <div className="mt-4 flex flex-col gap-4 items-center">
         <FaHome />
           <h2>1,Ayegbami CDA ,Obada-oko, Abeokuta, Ogun state</h2>
-          <h2>1,Ayegbami CDA ,Obada-oko, Abeokuta, Ogun state</h2>
+          <h2>10 Adebayo Hassan Street, Irawo Lagos</h2>
         </div>
         <div className="mt-4 flex flex-col gap-4 items-center">
         <FaPhoneAlt />
