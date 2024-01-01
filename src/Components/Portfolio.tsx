@@ -15,18 +15,21 @@ const Portfolio = () => {
           img="../assets/calc.png"
           title="Basic Calculator"
           subTitle="View Source Code"
+          code="https://github.com/Youngrilex/Basic-Calculator"
+        />
+        <Project
+          link="https://youngrilex.vercel.app"
+          img="../assets/RILEX DP.jpg"
+          title="Youngrilex Artwork"
+          subTitle="View Source Code"
+          code="https://github.com/Youngrilex/youngrilex"
         />
         <Project
           link="https://youngrilex.github.io/Basic-Calculator"
           img="../assets/calc.png"
           title="Basic Calculator"
           subTitle="niii"
-        />
-        <Project
-          link="https://youngrilex.github.io/Basic-Calculator"
-          img="../assets/calc.png"
-          title="Basic Calculator"
-          subTitle="niii"
+          code="https://github.com/Youngrilex/youngrilex"
         />
       </div>
       <a href="https://github.com/Youngrilex" className="my-8 sm:my-16 font-serif text-[14px] sm:text-[20px] bg-white text-[#4AC7F0] font-bold rounded-full shadow-md py-2 px-4 border-2 border-[#4AC7F0] hover:text-white hover:bg-[#4AC7F0]">
