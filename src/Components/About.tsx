@@ -17,28 +17,30 @@ function About() {
             <em>
               <b>Akindele</b>
             </em>
-            is a skilled, consistent and professional Frontend Software Engineer
-            with professional knowledge of maintaining, organizing, implementing
-            and developing information systems and software for human resource,
-            and financial operations.
-            <br /> Ever since I discovered the magic of turning code into
-            interactive screens, I've been hooked. My passion lies in crafting
-            beautiful, user-friendly interfaces that seamlessly bridge design
-            and functionality.From mastering the DOM to wielding the power of
-            React and Tailwind CSS, I'm constantly honing my skills to build
-            performant, responsive, and pixel-perfect web experiences.
-            <br /> I am an experienced Information Technology Specialist with a
-            demonstrated working history as a front-end web developer with
-            skills in HTML, CSS, JavaScript,TailwindCSS, Typescript, React.js,
-            bootstrap, material UI and lots more.
-            <br /> I am a very fast learner that loves learning on the job. I am
-            always open to new skills to add to my knowledge and be of benefit
-            for those I work for.
+            is an aspiring Junior Frontend Developer, eager to contribute his
+            skills and passion to the dynamic field of web development. While
+            currently building a foundation, he envisions a future as a
+            dedicated professional in the world of technology.
             <br />
-            Let's talk pixels! Connect with me on LinkedIn or check out my
-            portfolio for more examples of my work. I'm always eager to
-            collaborate on projects that push the boundaries of what's possible
-            on the web.
+            Driven by the excitement of turning code into interactive
+            interfaces, Akindele is committed to honing his skills in creating
+            visually appealing and user-friendly designs. His journey involves
+            mastering the intricacies of the DOM and exploring technologies like
+            React and Tailwind CSS to deliver engaging, responsive, and
+            pixel-perfect web experiences. <br />
+            As a budding Information Technology enthusiast, Akindele is already
+            showcasing proficiency in fundamental technologies such as HTML,
+            CSS, and JavaScript. With a keen interest in learning, he is
+            actively expanding his toolkit to include technologies like
+            Typescript, React.js, Bootstrap, Material UI, and more. <br />A
+            quick learner with an eagerness to adapt, Akindele is open to
+            acquiring new skills on the job, contributing his enthusiasm and
+            knowledge to collaborative projects. Connect with him on LinkedIn to
+            follow his journey or explore his portfolio for insights into his
+            evolving work. Akindele is excited about opportunities to contribute
+            to innovative web projects and looks forward to the challenges that
+            lie ahead in pushing the boundaries of what's achievable in web
+            development.
           </span>
           <a
             href="./assets/Akindele cv.pdf"
