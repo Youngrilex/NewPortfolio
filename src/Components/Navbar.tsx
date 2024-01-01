@@ -60,6 +60,7 @@ const Navbar = () => {
         <button
           className="text-[#238eb1]  text-[24px] lg:hidden focus:outline-none"
           onClick={toggleMenu}
+          
         >
           {menuOpen ? <FaTimes className="mt-32 ml-8" /> : <CgMenuRightAlt className=""/>}
         </button>
