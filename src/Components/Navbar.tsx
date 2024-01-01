@@ -57,48 +57,55 @@ const Navbar = () => {
           </div>
         </div>
         <div className="">
-        <button
-          className="text-[#238eb1]  text-[24px] lg:hidden focus:outline-none"
-          onClick={toggleMenu}
-          
-        >
-          {menuOpen ? <FaTimes className="mt-32 ml-8" /> : <CgMenuRightAlt className=""/>}
-        </button>
-        <div
-          className={`${
-            menuOpen ? "block" : "hidden"
-          } lg:hidden lg:items-center lg:w-auto`}
-        >
-          <div className={`text-${scrolling ? "white" : ""}`}>
-            <div className="flex flex-col items-center justify-around rounded-xl shadow-md bg-[#4AC7F0] p-4 font-bold">
-              <a rel="noreferrer" href="/Home" className="hover:text-[#83daf7]">
-                Home
-              </a>
-              <a
-                rel="noreferrer"
-                href="#Portfolio"
-                className="hover:text-[#83daf7]"
-              >
-                Portfolio
-              </a>
-              <a
-                rel="noreferrer"
-                href="#About"
-                className="hover:text-[#83daf7]"
-              >
-                About
-              </a>
-              <a
-                rel="noreferrer"
-                href="#Contact"
-                className="hover:text-[#83daf7]"
-              >
-                Contact
-              </a>
-              <Dialogs/>
+          <button
+            className="text-[#238eb1]  text-[24px] lg:hidden focus:outline-none"
+            onClick={toggleMenu}
+          >
+            {menuOpen ? (
+              <FaTimes className="mt-32 ml-8" />
+            ) : (
+              <CgMenuRightAlt className="" />
+            )}
+          </button>
+          <div
+            className={`${
+              menuOpen ? "block" : "hidden"
+            } lg:hidden lg:items-center lg:w-auto`}
+          >
+            <div className={`text-${scrolling ? "white" : ""}`}>
+              <div className="flex flex-col items-center justify-around rounded-xl shadow-md bg-[#4AC7F0] p-4 font-bold">
+                <a
+                  rel="noreferrer"
+                  href="/Home"
+                  className="hover:text-[#83daf7]"
+                >
+                  Home
+                </a>
+                <a
+                  rel="noreferrer"
+                  href="#Portfolio"
+                  className="hover:text-[#83daf7]"
+                >
+                  Portfolio
+                </a>
+                <a
+                  rel="noreferrer"
+                  href="#About"
+                  className="hover:text-[#83daf7]"
+                >
+                  About
+                </a>
+                <a
+                  rel="noreferrer"
+                  href="#Contact"
+                  className="hover:text-[#83daf7]"
+                >
+                  Contact
+                </a>
+                <Dialogs />
+              </div>
             </div>
           </div>
-        </div>
         </div>
       </div>
     </nav>
