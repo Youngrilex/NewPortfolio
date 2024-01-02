@@ -4,14 +4,14 @@ const Message = () => {
       <form>
       <div className="mb-4">
           <label
-            htmlFor="phoneNumber"
+            htmlFor="name"
             className="block text-sm font-medium text-gray-600"
           >
            Name
           </label>
           <input
-            type="tel"
-            id="phoneNumber"
+            type="text"
+            id="name"
             className="mt-1 p-2 w-full border rounded-md"
             required
           />
@@ -62,7 +62,7 @@ const Message = () => {
 
         <button
           type="submit"
-          className="bg-blue-500 text-white px-4 py-2 rounded-md hover:bg-blue-600"
+          className="bg-[#4AC7F0] text-white px-4 py-2 rounded-md hover:bg-blue-600"
         >
           Submit
         </button>
