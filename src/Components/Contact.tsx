@@ -20,7 +20,7 @@ function Contact() {
           <h2>ridwanakindele6@gmail.com</h2>
           <h2>akindeleridwan02@gmail.com</h2>
         </div>
-        <div className="mt-4 flex flex-row sm:flex-col gap-4 items-center">
+        <div className="mx-20 mt-4 flex flex-row sm:flex-col gap-4 items-center">
         <a href="https://wa.link/wt0mii" target="_blank"><IoLogoWhatsapp /></a>
         <FaFacebook />
         <a href="https://twitter.com/Youngrilex" target="_blank"><FaSquareXTwitter /></a>

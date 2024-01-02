@@ -42,9 +42,9 @@ const Navbar = () => {
         scrolling ? "bg-[#4AC7F0]" : "bg-transparent"
       }`}
     >
-      <div className="w-full flex items-center justify-around h-24 gap-2 sm:gap-12">
-        <div className="flex items-center text-[20px] sm:text-[30px] font-serif font-bold">
-          <img className="pr-10 h-[70px]" src={logoSrc} alt="logo" />
+      <div className="w-full flex items-center justify-around h-24 gap-2 sm:gap-4">
+        <div className="flex items-center text-[20px] sm:text-[30px] font-serif font-bold ml-2 sm:mr-80">
+          <img className="pr-4 sm:pr-10 h-[50px] sm:h-[70px]" src={logoSrc} alt="logo" />
           <span className={`text-${scrolling ? "white" : ""}`}>Akindele</span>
         </div>
         <div
