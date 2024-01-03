@@ -22,7 +22,7 @@ function Contact() {
         </div>
         <div className="mx-20 mt-4 flex flex-row sm:flex-col gap-4 items-center">
         <a href="https://wa.link/wt0mii" target="_blank"><IoLogoWhatsapp /></a>
-        <FaFacebook />
+        <a href="https://web.facebook.com/harkindeyley.harkinpelu" target="_blank"><FaFacebook /></a>
         <a href="https://twitter.com/Youngrilex" target="_blank"><FaSquareXTwitter /></a>
         <a href="https://github.com/Youngrilex" target="_blank"><FaGithub /></a>
         <FaLinkedin />

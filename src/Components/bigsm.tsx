@@ -15,7 +15,7 @@ const Bigsm = () => {
       <a rel="noreferrer" href="#Contact" className="hover:text-[#83daf7]">
         Contact
       </a>
-      <Dialogs />
+      <Dialogs styling="bg-[#2c95b7] hover:bg-[#2a6d82] rounded-sm shadow-md text-white px-5 py-2 font-bold"/>
     </div>
   );
 };

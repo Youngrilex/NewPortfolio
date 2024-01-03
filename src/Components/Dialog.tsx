@@ -1,11 +1,14 @@
 import * as React from "react";
 import { styled } from "@mui/material/styles";
 import Dialog from "@mui/material/Dialog";
-import DialogTitle from "@mui/material/DialogTitle";
 import DialogContent from "@mui/material/DialogContent";
 import IconButton from "@mui/material/IconButton";
 import CloseIcon from "@mui/icons-material/Close";
-import Message from "./Message";
+import ContactForm from "./ContactForm";
+
+type Props = {
+  styling: string
+}
 
 const BootstrapDialog = styled(Dialog)(({ theme }) => ({
   "& .MuiDialogContent-root": {
@@ -16,7 +19,7 @@ const BootstrapDialog = styled(Dialog)(({ theme }) => ({
   },
 }));
 
-export default function Dialogs() {
+export default function Dialogs({styling}: Props) {
   const [open, setOpen] = React.useState(false);
 
   const handleClickOpen = () => {
@@ -29,7 +32,7 @@ export default function Dialogs() {
   return (
     <React.Fragment>
       <button
-        className="bg-[#2c95b7] hover:bg-[#2a6d82] rounded-sm shadow-md text-white px-5 py-2 font-bold"
+       className={styling}
         onClick={handleClickOpen}
       >
         Get In Touch
@@ -39,9 +42,9 @@ export default function Dialogs() {
         aria-labelledby="customized-dialog-title"
         open={open}
       >
-        <DialogTitle sx={{ m: 0, p: 2 }} id="customized-dialog-title">
+        <div className="text-2xl font-bold p-2">
           Send A Message
-        </DialogTitle>
+        </div>
         <IconButton
           aria-label="close"
           onClick={handleClose}
@@ -55,7 +58,7 @@ export default function Dialogs() {
           <CloseIcon />
         </IconButton>
         <DialogContent dividers>
-        <Message/>
+        <ContactForm/>
         </DialogContent>
       </BootstrapDialog>
     </React.Fragment>

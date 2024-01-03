@@ -17,9 +17,7 @@ function App() {
         </div>
       </div>
   <Portfolio/>
-      
-      <About/>
-      <div className="w-full h-[1px] bg-[#4AC7F0] mt-8"/>
+       <About/>
     </Layout>
   );
 }
