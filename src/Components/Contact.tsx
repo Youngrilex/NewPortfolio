@@ -25,11 +25,11 @@ function Contact() {
         <a href="https://web.facebook.com/harkindeyley.harkinpelu" target="_blank"><FaFacebook /></a>
         <a href="https://twitter.com/Youngrilex" target="_blank"><FaSquareXTwitter /></a>
         <a href="https://github.com/Youngrilex" target="_blank"><FaGithub /></a>
-        <FaLinkedin />
+        <a href="https://www.linkedin.com/in/akindele-ridwanullah-265329296/" target="_blank"><FaLinkedin /></a>
         </div>
       </div>
     );
   }
-  
+    
   export default Contact;
   
