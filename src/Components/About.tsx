@@ -43,7 +43,7 @@ function About() {
             development.
           </span>
           <a
-            href="./assets/Akindele cv.pdf"
+            href="../assets/Akindele Ridwanullah.pdf"
             className="max-w-[200px] my-8 font-serif text-[14px] bg-white text-[#4AC7F0] font-bold rounded-full shadow-md py-2 px-4 border-2 border-[#4AC7F0] hover:text-white hover:bg-[#4AC7F0]"
           >
             View Resume
