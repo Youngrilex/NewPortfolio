@@ -15,9 +15,9 @@ function About() {
           </div>
           <span className="text-justify">
             <em>
-              <b>Akindele</b>
+              <b>Akindele </b> 
             </em>
-            is an aspiring Junior Frontend Developer, eager to contribute his
+            is a Frontend Developer, eager to contribute his
             skills and passion to the dynamic field of web development. While
             currently building a foundation, he envisions a future as a
             dedicated professional in the world of technology.
@@ -43,7 +43,7 @@ function About() {
             development.
           </span>
           <a
-            href="../assets/Akindele Ridwan.pdf"
+            href="../assets/AKINDELE.pdf"
             className="max-w-[200px] my-8 font-serif text-[14px] bg-white text-[#4AC7F0] font-bold rounded-full shadow-md py-2 px-4 border-2 border-[#4AC7F0] hover:text-white hover:bg-[#4AC7F0]"
           >
             View Resume
